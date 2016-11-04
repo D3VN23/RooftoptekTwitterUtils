@@ -1,0 +1,49 @@
+PODS:
+  - AWSCognito (2.4.11):
+    - AWSCore (= 2.4.11)
+  - AWSCore (2.4.11)
+  - AWSLambda (2.4.11):
+    - AWSCore (= 2.4.11)
+  - AWSS3 (2.4.11):
+    - AWSCore (= 2.4.11)
+  - Bolts/Tasks (1.8.4)
+  - Fabric (1.6.11)
+  - Rooftop (0.0.1):
+    - AWSCognito (~> 2.4)
+    - AWSLambda (~> 2.4)
+    - AWSS3 (~> 2.4)
+    - Bolts/Tasks (~> 1.8)
+  - TwitterCore (2.5.0):
+    - Fabric
+  - TwitterKit (2.5.0):
+    - TwitterCore (= 2.5.0)
+
+DEPENDENCIES:
+  - Fabric
+  - Rooftop (from `https://github.com/Rooftoptek/Rooftop-SDK-xOS.git`, tag `0.0.1`)
+  - TwitterKit
+
+EXTERNAL SOURCES:
+  Rooftop:
+    :git: https://github.com/Rooftoptek/Rooftop-SDK-xOS.git
+    :tag: 0.0.1
+
+CHECKOUT OPTIONS:
+  Rooftop:
+    :git: https://github.com/Rooftoptek/Rooftop-SDK-xOS.git
+    :tag: 0.0.1
+
+SPEC CHECKSUMS:
+  AWSCognito: e086ad6f499e309dbf0030170cffc65a0bfd27c6
+  AWSCore: e66b0f50d68f9897cc9e68471062f0cb5379eec5
+  AWSLambda: a724cdda7d76c8c9d6e8447134c221b22531d2bc
+  AWSS3: 2f90735901744687eaeb91621fa62ee921db6510
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  Rooftop: 97f00dd32f5b9855f18165be77e07c68171ecf52
+  TwitterCore: 95c46af93112768a7983bd370d66023553601d01
+  TwitterKit: dd8042698b0ff5bd3066fa919b3b2b50d8eed829
+
+PODFILE CHECKSUM: 4b82de6092494d317f0af1b02d64356cf05ef7c6
+
+COCOAPODS: 1.0.1
